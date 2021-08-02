@@ -42,7 +42,7 @@ targetCompatibility = 1.8
 
 repositories {
 	maven {
-		url "${artifactory_url}/team1-gradle"
+		url "${artifactory_url}/gradle-remote"
 		credentials {
 			username = System.getenv().int_Artifactory_user
 			password = System.getenv().int_Artifactory_apikey
