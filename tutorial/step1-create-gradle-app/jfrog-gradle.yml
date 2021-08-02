@@ -3,7 +3,7 @@ type: gradle
 usePlugin: false
 useWrapper: true
 resolver:
-  repo: jcenter-gradle-remote
+  repo: gradle-remote
   serverID: Artifactory
 deployer:
   repo: team1-gradle-dev-us
