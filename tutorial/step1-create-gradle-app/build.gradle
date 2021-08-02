@@ -7,7 +7,7 @@ buildscript {
 	}
 	repositories {
 		maven {
-			url "${artifactory_url}/jcenter-gradle-remote"
+			url "${artifactory_url}/gradle-remote"
 			credentials {
 				username = System.getenv().int_Artifactory_user
 				password = System.getenv().int_Artifactory_apikey
